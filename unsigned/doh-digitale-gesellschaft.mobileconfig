@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>PayloadContent</key>
+        <array>
+                <dict>
+                        <key>DNSSettings</key>
+                        <dict>
+                                <key>DNSProtocol</key>
+                                <string>HTTPS</string>
+                                <key>ServerAddresses</key>
+                                <array>
+                                        <string>2a05:fc84::42</string>
+                                        <string>2a05:fc84::43</string>
+                                        <string>185.95.218.42</string>
+                                        <string>185.95.218.43</string>
+                                </array>
+                                <key>ServerURL</key>
+                                <string>https://dns.digitale-gesellschaft.ch/dns-query</string>
+                        </dict>
+                        <key>PayloadDescription</key>
+                        <string>Configures your iOS device to use Digitale Gesellschaft Encrypted DNS over HTTPS</string>
+                        <key>PayloadDisplayName</key>
+                        <string>Digitale Gesellschaft DNS over HTTPS</string>
+                        <key>PayloadIdentifier</key>
+                        <string>com.apple.dnsSettings.managed.c59472c6-272b-11eb-bfbd-173132dd98d1</string>
+                        <key>PayloadType</key>
+                        <string>com.apple.dnsSettings.managed</string>
+                        <key>PayloadUUID</key>
+                        <string>c1793a82-272b-11eb-9a8d-ab09afdd44ce</string>
+                        <key>PayloadVersion</key>
+                        <integer>1</integer>
+                        <key>ProhibitDisablement</key>
+                        <false/>
+                </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds the Digitale Gesellschaft DNS to iOS 14 based systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Digitale Gesellschaft Encrypted DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+        <string>net.husic.apple-dns.digitale-gesellschaft</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>bb3918f4-272b-11eb-8563-8bd6440f45d9</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+</dict>
+</plist>
+

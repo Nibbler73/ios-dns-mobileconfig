@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2001:678:e68:f000::</string>
+					<string>5.1.66.255</string>
+				</array>
+				<key>ServerName</key>
+				<string>dot.ffmuc.net</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures your iOS device to use Freifunk FFMUC Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>Freifunk FFMUC DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.d24fc6ce-448f-11eb-8025-b75074d39ae8</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>d17dcf34-448f-11eb-9948-cf837c2fc97e</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the Freifunk FFMUC DNS to iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Freifunk FFMUC Encrypted DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>net.husic.apple-dns.ffmuc</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>d03f71c2-448f-11eb-87da-cfe0e90194e9</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

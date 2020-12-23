@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>PayloadContent</key>
+        <array>
+                <dict>
+                        <key>DNSSettings</key>
+                        <dict>
+                                <key>DNSProtocol</key>
+                                <string>HTTPS</string>
+                                <key>ServerAddresses</key>
+                                <array>
+                                        <string>2001:678:e68:f000::</string>
+                                        <string>5.1.66.255</string>
+                                </array>
+                                <key>ServerURL</key>
+                                <string>https://doh.ffmuc.net/dns-query</string>
+                        </dict>
+                        <key>PayloadDescription</key>
+                        <string>Configures your iOS device to use Freifunk FFMUC Encrypted DNS over HTTPS</string>
+                        <key>PayloadDisplayName</key>
+                        <string>Freifunk FFMUC DNS over HTTPS</string>
+                        <key>PayloadIdentifier</key>
+                        <string>com.apple.dnsSettings.managed.f285a5e4-448f-11eb-b017-ff54d573de29</string>
+                        <key>PayloadType</key>
+                        <string>com.apple.dnsSettings.managed</string>
+                        <key>PayloadUUID</key>
+                        <string>e7167a76-448f-11eb-89e7-a33d389a8908</string>
+                        <key>PayloadVersion</key>
+                        <integer>1</integer>
+                        <key>ProhibitDisablement</key>
+                        <false/>
+                </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds the Freifunk FFMUC DNS to iOS 14 based systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Freifunk FFMUC Encrypted DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+        <string>net.husic.apple-dns.ffmuc</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>cb3ec826-448f-11eb-94eb-cbdd0c8ee320</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+</dict>
+</plist>
+

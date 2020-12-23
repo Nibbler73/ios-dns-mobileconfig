@@ -1,0 +1,6 @@
+# re-sign mobileconfig files for iOS
+MAILTO=<your@mail.address.here>
+SIGNDOMAIN=dns.husic.net
+DESEC_TOKEN=xyz123abc
+
+14 14   * * *   lego [ -x /usr/bin/lego ] && cd /home/lego/mobileconfig && DESEC_TTL=3600 DESEC_TOKEN=${DESEC_TOKEN} /usr/bin/lego --email="${MAILTO}" --domains="${SIGNDOMAIN}" --dns="desec" renew --renew-hook="./mobileconfig.sh"

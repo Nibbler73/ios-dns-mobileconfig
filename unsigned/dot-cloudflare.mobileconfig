@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2606:4700:4700::1111</string>
+					<string>2606:4700:4700::1001</string>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+				</array>
+				<key>ServerName</key>
+				<string>one.one.one.one</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures your iOS device to use Cloudflare Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>Cloudflare DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.29ab561d-6d2b-4a0d-85b1-bc0d881c348b</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>ee2a351b-85c2-4bdc-89fe-02cde32f254f</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the Cloudflare DNS to iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Cloudflare Encrypted DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>net.husic.apple-dns.cloudflare</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6ac8694b-f4cf-4202-940d-2724d0b2b455</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

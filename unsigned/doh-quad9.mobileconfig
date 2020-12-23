@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>PayloadContent</key>
+        <array>
+                <dict>
+                        <key>DNSSettings</key>
+                        <dict>
+                                <key>DNSProtocol</key>
+                                <string>HTTPS</string>
+                                <key>ServerAddresses</key>
+                                <array>
+                                        <string>2620:fe::fe</string>
+                                        <string>2620:fe::9</string>
+                                        <string>9.9.9.9</string>
+                                        <string>149.112.112.112</string>
+                                </array>
+                                <key>ServerURL</key>
+                                <string>https://dns.quad9.net/dns-query</string>
+                        </dict>
+                        <key>PayloadDescription</key>
+                        <string>Configures your iOS device to use Quad9 Encrypted DNS over HTTPS</string>
+                        <key>PayloadDisplayName</key>
+                        <string>Quad9 DNS over HTTPS</string>
+                        <key>PayloadIdentifier</key>
+                        <string>com.apple.dnsSettings.managed.4d74d1e6-272b-11eb-aad0-435c79e86756</string>
+                        <key>PayloadType</key>
+                        <string>com.apple.dnsSettings.managed</string>
+                        <key>PayloadUUID</key>
+                        <string>4e20c8de-272b-11eb-92da-0b305afaf256</string>
+                        <key>PayloadVersion</key>
+                        <integer>1</integer>
+                        <key>ProhibitDisablement</key>
+                        <false/>
+                </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds the Quad9 DNS to iOS 14 based systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Quad9 Encrypted DNS over HTTPS</string>
+        <key>PayloadIdentifier</key>
+        <string>net.husic.apple-dns.quad9</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>4f965e86-272b-11eb-87b5-0b9bc539731e</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+</dict>
+</plist>
+
