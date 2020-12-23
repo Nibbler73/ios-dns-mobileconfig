@@ -2,9 +2,13 @@
 
 Configuration and Scripts for encrypted DNS configuration with iOS devices
 
+Die mobileconfig Profile für DNS-Einstellungen werden von Lets Encrypt unterschrieben und können dann den Usern per einfachen Download zur Verfügung gestellt werden.
+
 ## Installation der Konfigurations-Scripte
 
-t.b.d.
+* Installation von `lego`
+* `cron.d/mobileconfig` anpassen und in nach `/etc/cron.d` kopieren
+* `mobileconfig.sh` anpassen und in den gleichen Ordner kopieren wie die beiden Ordner `unsigned` mit den profilen und dem leeren `signed` Ordner.
 
 ## Installation der Profile auf dem iOS Gerät
 
