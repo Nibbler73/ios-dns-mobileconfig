@@ -11,11 +11,11 @@
 				<string>TLS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>2a02:2970:1002::18</string>
-					<string>46.182.19.48</string>
+					<string>2a01:4f8:251:554::2</string>
+					<string>5.9.164.112</string>
 				</array>
 				<key>ServerName</key>
-				<string>dns2.digitalcourage.de</string>
+				<string>dns3.digitalcourage.de</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures your iOS device to use Digitalcourage Encrypted DNS over TLS</string>
